@@ -8,8 +8,7 @@ const Add = ({ url }) => {
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     name: "",
-    description:
-      "Food provides essential nutrients for overall health and well-being",
+    description: "",
     price: "",
     category: "Cake",
   });
